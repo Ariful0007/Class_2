@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/namne"
+        android:title="Name"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_dynamic_feed_24"
+        ></item>
+    <item
+        android:id="@+id/namne1"
+        android:title="Account"
+        app:showAsAction="withText"
+        android:icon="@drawable/ic_baseline_account_box_24"
+        ></item>
+    <item
+        android:id="@+id/namne2"
+        android:title="Image"
+       app:showAsAction="always|withText"
+
+        android:icon="@drawable/ic_baseline_tag_faces_24"
+        ></item>
+
+
+</menu>
